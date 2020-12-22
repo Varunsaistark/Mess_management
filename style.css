@@ -35,3 +35,37 @@
     border-color: #d0b200;
     border-radius: 8px;
 }
+
+.explore-menu-section {
+    background-color: white;
+}
+
+.menu-heading {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 28px;
+    color: #183b56;
+}
+
+.menu-item-image {
+    border-radius: 16px;
+}
+
+.menu-card-title {
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.menu-item-link {
+    color: #d0b200;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu-item-card {
+    border-radius: 16px;
+}
