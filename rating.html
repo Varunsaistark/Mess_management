@@ -8,6 +8,8 @@
     <!-- <title>Star Rating Form | CodingNepal</title> -->
     <link rel="stylesheet" href="st.css">
     <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    
+
 </head>
 
 <body>
@@ -29,7 +31,8 @@
             <label for="rate-2" class="fas fa-star"></label>
             <input type="radio" name="rate" id="rate-1">
             <label for="rate-1" class="fas fa-star"></label>
-            <form action="#">
+            <form action='#'>
+            
                 <header></header>
                 <div class="textarea">
                     <textarea cols="30" placeholder="Describe your experience.."></textarea>
@@ -37,12 +40,28 @@
 
                     <br />
                     
-                </form>
+                    
+                
 
+              
                
                 </div>
-          
-                <button >Submit</button>
+                <div class='w'>
+                <label for="type">Choose type</label>
+                    <select name="day_time" id="type">
+                      <option value="breakfast">breakfast</option>
+                      <option value="lunch">lunch</option>
+                      <option value="snacks">snacks</option>
+                      <option value="dinner">dinner</option>
+                    </select>
+                </div>
+                <div class="gh">
+                    <button class="btn">POST</button>
+                </div>
+    
+            </form>
+              
+                
         </div>
 </body>
 

@@ -5,6 +5,17 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
+.btn{
+    text-align: center;
+    color: white;
+    background-color:#000;
+    border-width: 0px;
+    width:100px;
+    height:30px;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
 html,body{
   display: grid;
   height: 100%;
