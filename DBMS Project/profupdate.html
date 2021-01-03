@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>NITC Profile Update</title>
+	<link rel="stylesheet" href="style2.css">
+</head>
+<body>
+	
+<div class="wrapper">
+	<div class="registration_form">
+		<div class="title">
+			Update Profile
+		</div>
+
+		<form action="updateprofile.php" method="post">
+			<div class="form_wrap">
+				<div class="input_grp">
+					<div class="input_wrap">
+						<label for="fname">First Name</label>
+						<input type="text" name="fname" id="fname">
+					</div>
+					<div class="input_wrap">
+						<label for="lname">Last Name</label>
+						<input type="text" name="lname" id="lname">
+					</div>
+				</div>
+			
+			<div class="input_grp">
+				<div class="input_wrap">
+					<label for="contact">Contact Number</label>
+					<input type="text" name="phonenumber" id="contact">
+				</div>
+				<div class="input_wrap">
+					<label for="emergency">Emergency Number</label>
+					<input type="text" name="emergencynumber" id="emergency">
+				</div>
+			</div>
+			<div class="input_grp">
+				<div class="input_wrap">
+					<label for="email">Email Address</label>
+					<input type="text" name="mailid" id="email">
+				</div>
+				<div class="input_wrap">
+					<label for="NITCemail">NITC Mail-id </label>
+					<input type="text" name="nitcmail" id="NITCemail">
+				</div>
+			</div>
+				<div class="input_grp">
+				
+				<div class="input_wrap">
+					<label for="hostelname">Hostel Name</label>
+					<input type="text" name="hostelname" id="hostelname">
+				</div>
+			</div>
+				
+			
+				<div class="input_wrap">
+					<input type="submit" name="updt" value="Update" class="submit_btn">
+				</div>
+				
+				<a href="profile.php"input type="submit" value="back" class="submit_btn">Profile</a>
+
+
+			</div>
+			
+		</form>
+	</div>
+</div>
+
+</body>
+</html>

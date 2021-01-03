@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+<body>
+<form action="menuphp.php" method="post">
+  <div class="container">
+  <center>  <h1> Menu updation</h1> </center>
+  <hr>
+
+
+<div>
+<label>
+Select day you want to change
+</label><br>
+<input type="radio" value ="MONDAY" name="day"/> Monday
+<input type="radio" value="TUESDAY" name="day"/> Tuesday
+<input type="radio" value="WEDNESDAY" name="day"/> Wednesday
+<input type="radio" value="THURSDAY" name="day"/> Thursday
+<input type="radio" value="FRIDAY" name="day"/> Friday
+<input type="radio" value="SATURDAY" name="day"/> Saturday
+<input type="radio" value="SUNDAY" name="day"/> Sunday
+
+
+</div>
+<label>Breakfast:</label>
+<input type="text" name="Breakfast" required /><br>
+<label>Breakfast Time:</label>
+<input type="text" name="Breakfast_t" required /><br>
+<label>Lunch:</label>
+<input type="text" name="Lunch" required /><br>
+<label>Lunch time:</label>
+<input type="text" name="Lunch_t" required /><br>
+<label>Snacks:</label>
+<input type="text" name="Snacks" required /><br>
+<label>Snacks time:</label>
+<input type="text" name="Snacks_t" required /><br>
+<label>Dinner:</label>
+<input type="text" name="Dinner" required /><br>
+<label>Dinner time:</label>
+<input type="text" name="Dinner_t" required /><br>
+
+
+    <button name="submit" type="submit" class="registerbtn">Update</button>
+</form>
+
+</body>
+</html>

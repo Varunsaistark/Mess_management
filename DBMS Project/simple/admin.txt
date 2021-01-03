@@ -1,0 +1,21 @@
+CREATE TABLE Admin
+(
+Admin_ID	INT NOT NULL,
+Admin_Name	VARCHAR(20) NOT NULL,
+PhNo	VARCHAR(15)  NOT NULL,
+EMAIL_ID	VARCHAR(30) NOT NULL,
+Mess_ID	  INT,
+Login_Password	VARCHAR(20) NOT NULL,
+PRIMARY KEY (Admin_ID),
+UNIQUE (PhNo, EMAIL_ID)
+);
+
+INSERT INTO `admin` (`Admin_ID`, `Admin_Name`, `PhNo`, `EMAIL_ID`, `Mess_ID`, `Login_Password`) VALUES ('1', 'admin1', '2112223331', 'admin1@gmail.com', '1', 'admin1password'), ('2', 'admin2', '2112223332', 'admin2@gmail.com', '2', 'admin2password'),
+('3', 'admin3', '2112223333', 'admin3@gmail.com', '3', 'admin3password'),
+('4', 'admin4', '2112223334', 'admin4@gmail.com', '4', 'admin4password'),
+('5', 'admin5', '2112223335', 'admin5@gmail.com', '4', 'admin5password'),
+('6', 'admin6', '2112223336', 'admin6@gmail.com', '5', 'admin6password'),
+('7', 'admin7', '2112223337', 'admin7@gmail.com', '6', 'admin7password'),
+('8', 'admin8', '2112223338', 'admin8@gmail.com', '7', 'admin8password');
+
+SELECT * FROM Admin;

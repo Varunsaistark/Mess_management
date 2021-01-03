@@ -1,0 +1,20 @@
+CREATE TABLE Student_Due_Details
+(
+RNo CHAR(9) NOT NULL,
+Year  VARCHAR(4) NOT NULL,
+Month VARCHAR(10) NOT NULL,
+PrePaidAmount 	INT ,
+Mess_Charge  INT ,
+Extra_Charge INT ,
+Fine INT ,
+TotalCharge    INT ,
+AmountPaid 	 INT ,
+NetDue	INT ,
+Amount_Paid_Date	VARCHAR(20) ,
+PRIMARY KEY (RNo,Year,Month)
+);
+
+
+INSERT INTO `Student_Due_Details` (`RNo`, `Year`, `Month`) VALUES ('B123451CS', '2020', 'DEC'), ('B123452CS', '2020', 'DEC'), ('B123453CS', '2020', 'DEC'), ('B123454CS', '2020', 'DEC'), ('B123455CS', '2020', 'DEC'), ('B123456CS', '2020', 'DEC'), ('B123457CS', '2020', 'DEC'), ('B123458CS', '2020', 'DEC');
+
+SELECT * FROM Student_Due_Details;

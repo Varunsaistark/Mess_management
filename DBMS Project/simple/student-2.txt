@@ -1,0 +1,35 @@
+CREATE TABLE Student 
+(
+rollnumber	 CHAR(9)  NOT NULL,
+fname	VARCHAR(20)  NOT NULL,
+mname	VARCHAR(10) ,
+lname	VARCHAR(10)  NOT NULL,
+mess_id	INT ,
+hostelname	VARCHAR(5)  ,
+contactnumber VARCHAR(15) NOT NULL,
+sec_contactnumber  VARCHAR(15) NOT NULL,
+email	VARCHAR(30)  NOT NULL,
+nitcmail VARCHAR(35)  NOT NULL,
+password	VARCHAR(20)  NOT NULL,
+Extras INT ,
+PRIMARY KEY (rollnumber),
+UNIQUE (contactnumber,Sec_contactnumber, email,nitcmail)
+);
+
+INSERT INTO `student` (`rollnumber`, `fname`, `lname`, `mess_id`, `hostelname`, `contactnumber`, `sec_contactnumber`, `email`, `nitcmail`, `password`, `Extras`) VALUES
+('b180258cs', 'varun', 'sai', '', 'mega boys hostel', '8008649587', '8008649567', 'user2@gmail.com', 'varunnitc@nitc.ac.in', 'password@1', 0),
+('b180264cs', 'Rahul', 'Somalaraju', '', 'mega boys hostel', '8008649583', '78678667666', 'user1@gmail.com', 'rahulnitc@nitc.ac.in', 'password@5', 0);
+
+
+
+INSERT INTO `student` (`rollnumber`, `fname`, `lname`, `mess_id`, `hostelname`, `contactnumber`, `sec_contactnumber`, `email`, `nitcmail`, `password`, `Extras`)
+VALUES ('B123452CS', 'fname2', 'lname2', '2', 'B', '1112223332','1234567892', 'fname2@gmail.com', 'fname2_b123452cs@nitc.ac.in', 'fname2password', '1002'),
+('B123451CS', 'fname1', 'lname1', '1', 'A', '1112223331','1234567891', 'fname1@gmail.com ', 'fname1_b123451cs@nitc.ac.in', 'fname1password', '1001'),
+('B123453CS', 'fname3', 'lname3', '3', 'C', '1112223333','1234567893', 'fname3@gmail.com ', 'fname3_b123453cs@nitc.ac.in', 'fname3password', '1003'),
+('B123454CS', 'fname4', 'lname4', '4', 'D', '1112223334','1234567894', 'fname4@gmail.com ', 'fname4_b123454cs@nitc.ac.in', 'fname4password', '1004'),
+('B123455CS', 'fname5', 'lname5', '5', 'E', '1112223335','1234567895', 'fname5@gmail.com ', 'fname5_b123455cs@nitc.ac.in', 'fname5password', '1005'),
+('B123456CS', 'fname6', 'lname6', '6', 'F', '1112223336','1234567896', 'fname6@gmail.com ', 'fname6_b123456cs@nitc.ac.in', 'fname6password', '1006'),
+('B123457CS', 'fname7', 'lname7', '7', 'G', '1112223337','1234567897', 'fname7@gmail.com ', 'fname7_b123457cs@nitc.ac.in', 'fname7password', '1007'),
+('B123458CS', 'fname8', 'lname8', '8', 'IH', '1112223338','1234567898', 'fname8@gmail.com ', 'fname8_b123458cs@nitc.ac.in', 'fname8password', '1008');
+
+SELECT * FROM Student;

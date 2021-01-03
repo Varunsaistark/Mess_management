@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Mess Menu Update</title>
+	<link rel="stylesheet" type="text/css" href="menu1css.css">
+</head>
+
+<body>
+
+	<div class="container">
+		<div class="row col-md-6 col-md-offset-3">
+			<div class="panel panel-primary">
+				<div class="panel-heading">
+					<h1> Mess Menu Updating</h1>
+				</div>
+				<div class="panel-body">
+					<form action="menuphp.php" method="post">
+
+
+						<div class="form-group">
+							<label for="day">Residence</label>
+							<div>
+          
+							<label for="nonday" class="radio-inline">
+							<input type="radio" name="day" value="MONDAY" id="monday"> Monday</label>
+	
+	
+							<label for="tuesday" class="radio-inline">
+							<input type="radio" name="day" value="TUESDAY" id="tuesday"> Tuesday</label>
+
+
+							<label for="wednesday" class="radio-inline">
+							<input type="radio" name="day" value="WEDNESDAY" id="wednesday"> Wednesday</label>
+
+
+							<label for="thursday" class="radio-inline">
+							<input type="radio" name="day" value="THURSDAY" id="thursday"> Thursday</label>
+
+
+							<label for="friday" class="radio-inline">
+							<input type="radio" name="day" value="FRIDAY" id="friday"> Friday</label>
+
+
+							<label for="saturday" class="radio-inline">
+							<input type="radio" name="day" value="SATURDAY" id="saturday"> Saturday</label>
+
+
+							<label for="sunday" class="radio-inline">
+							<input type="radio" name="day" value="SUNDAY" id="sunday"> Sunday</label>
+
+
+						</div>
+
+
+
+
+
+						<div class="form-group">
+							<label for="br">Breakfast:</label>
+			                <input type="text"name="Breakfast" class="form-control" id="br" required>
+			            </div>
+			            <div class="form-group">
+			            	<label for="br_tm">Breakfast Time:</label>
+			                 <input type="text"name="Breakfast_t" class="form-control" id="br_tm" required>
+						</div>
+
+						<div class="form-group">
+							<label for="lun">Lunch:</label>
+        					<input type="text" id="lun" class="form-control"name="Lunch"  required>
+						</div>
+		
+	
+						<div class="form-group">
+							<label for="lun_tm">Lunch Time:</label>
+							<input type="text"name="Lunch_t" class="form-control"  id="Address" required>
+						</div>
+	
+						<div class="form-group">
+							<label for="eve">Snacks:</label>
+        					<input type="text" name="Snacks" class="form-control"   id="eve" required>
+						</div>
+	
+						<div class="form-group">
+							<label for="snk">Snacks Time:</label>
+							<input type="text" name="Snacks_t" class="form-control" id="snk" required>
+						</div >
+	
+						<div class="form-group">
+							<label for="din">Dinner:</label>
+							<input type="text"class="form-control"name="Dinner" id="din">
+						</div >
+						<div class="form-group">
+							<label for="din_tm">Dinner Time:</label>
+							<input type="text" name="Dinner_t" class="form-control" id="din_tm" required>
+						</div >
+	
+						
+</br>
+
+<input id="submit" name="submit" type="submit" value="UPDATE">
+</form>
+							
+
+
+				</div>
+				<div class="panel-footer">
+					<small>&copy; Rahul</small>
+				</div>
+			</div>
+		</div>
+	</div>

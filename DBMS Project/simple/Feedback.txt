@@ -1,0 +1,21 @@
+CREATE TABLE Feedback
+(
+RNo  CHAR(9) NOT NULL,
+DayType	 VARCHAR(20) NOT NULL,
+Date VARCHAR(20) NOT NULL,
+Mess_ID  INT NOT NULL ,
+Rating	INT ,
+Comments TEXT ,
+PRIMARY KEY (RNo,DayType,Date)
+);
+
+
+INSERT INTO `feedback` (`RNo`, `DayType`, `Date`, `Mess_ID`, `Rating`, `Comments`) VALUES ('B123451CS', 'Breakfast', '2020/12/26', '1', '4', 'nice'), ('B123452CS', 'Breakfast', '2020/12/26', '2', '2', 'not nice'),
+('B123453CS', 'Breakfast', '2020/12/26', '3', '2', 'nice'),
+('B123454CS', 'Breakfast', '2020/12/26', '4', '3', 'nice'),
+('B123455CS', 'Breakfast', '2020/12/26', '5', '5', 'nice'),
+('B123456CS', 'Breakfast', '2020/12/26', '6', '2', 'nice'),
+('B123457CS', 'Breakfast', '2020/12/26', '7', '2', 'nice'),
+('B123458CS', 'Breakfast', '2020/12/26', '8', '3', 'nice');
+
+SELECT * FROM Feedback;

@@ -1,0 +1,23 @@
+CREATE TABLE Mess_Day_Rating
+(
+Mess_ID  INT NOT NULL,
+DayType	  VARCHAR(20) ,
+Date VARCHAR(20) NOT NULL,
+Avg_Rating	FLOAT ,
+Special_Item	 TEXT ,
+Change_in_Timmings	 TEXT,
+PRIMARY KEY (Mess_ID,DayType,Date)
+);
+
+
+INSERT INTO Mess_Day_rating (Mess_ID,DayType,Date)
+VALUES ('1','Breakfast','2020/12/26'),
+('2','Breakfast','2020/12/26'),
+('3','Breakfast','2020/12/26'),
+('4','Breakfast','2020/12/26'),
+('5','Breakfast','2020/12/26'),
+('6','Breakfast','2020/12/26'),
+('7','Breakfast','2020/12/26'),
+('8','Breakfast','2020/12/26');
+
+SELECT * FROM Mess_Day_Rating;
